@@ -8,4 +8,4 @@ RUN git clone https://github.com/countrybotabout/Play-Store-Bot
 RUN cd Play-Store-Bot
 WORKDIR /Play-Store-Bott
 RUN pip3 install -U -r requirements.txt
-CMD python3 upload_files.py
+CMD python3 main.py
